@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1468307082 source:/media/sf_Project/_GitTest/EDM30_Project/EDM30E.cpp
+	"local_linux.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<conio.h>
+	<math.h>
+	"local.h"
+	"snuoci5.h"
+	"struct.h"
+	"Comset.h"
+
+1275910788 /media/sf_Project/_GitTest/EDM30_Project/local_linux.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<unistd.h>
+	<sys/types.h>
+	<stdarg.h>
+	"basetypes.h"
+	"err_code.h"
+	"halcomm.h"
+	<pthread.h>
+
+1239326160 /media/sf_Project/_GitTest/EDM30_Project/basetypes.h
+	<endian.h>
+
+1239326160 /media/sf_Project/_GitTest/EDM30_Project/err_code.h
+
+1239326160 /media/sf_Project/_GitTest/EDM30_Project/halcomm.h
+
+1276181718 /media/sf_Project/_GitTest/EDM30_Project/local.h
+	<stdio.h>
+	<stdarg.h>
+	"basetypes.h"
+	<pthread.h>
+
+1468826084 source:d:\project\_gittest\edm30_project\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<windows.h>
+
+1468918455 source:c:\users\andrei_ciungan\desktop\edm30_project\edm30_project\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<windows.h>
+

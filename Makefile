@@ -1,0 +1,14 @@
+
+
+#/////////////////////////////////////////////////////////////////////////////////////////////
+
+# ±‡“Î∆˜∂®“Â
+
+IDU_COMPILER = arm_v4t_le-g++
+#IDU_COMPILER = arm_v4t_le-gcc
+#IDU_COMPILER = g++
+
+freecooling.so: EDM30D.cpp  IDUDRV.cpp local_linux.h
+	$(IDU_COMPILER) -shared -fPIC EDM30D.cpp IDUDRV.cpp -D_LINUX_ -D_DLL_ -lhal -o DAC.dll
+
+#/////////////////////////////////////////////////////////////////////////////////////////////
